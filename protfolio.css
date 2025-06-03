@@ -154,7 +154,7 @@ hr{
 }
 .rotating-text span {
     display: block;
-    animation: rotateText 15s linear infinite;
+    animation: rotateText 5s linear infinite;
 }
 @keyframes rotateText {
     0% { transform: translateY(0); }
@@ -363,9 +363,10 @@ hr{
     height: 50px;
     margin-bottom: 10px;
 }
-.project-card h2 {
+.project-card h2 a {
     font-size: 1.2em;
-    margin: 10px 0;
+    margin: 7px 0;
+    color: #ffb400;
 }
 .project-card .tags {
     color: #00bfa6;
